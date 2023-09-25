@@ -171,7 +171,7 @@
         
         if(n===10){
             let valorEmDec = String(valorAConverter) 
-            let valorEmBi = hexaBinario(valorEmDec)
+            let valorEmBi = decBinario(valorEmDec)
             let valorEmOctal = biOctal(valorEmBi)
             return valorEmOctal
         }
@@ -392,7 +392,6 @@
     }
 
     function hexaBinario(valores){
-        
         if(valores == '1') return '0001'
         if(valores == '2') return '0010'
         if(valores == '3') return '0011'
