@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.all{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: white solid 10px;
+    transition: border linear .4s;
+}
+
+.valores{
+    padding: 30px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#check{
+    border: rgb(60, 209, 60) solid 10px;
+}
+
+#error{
+    border: rgb(251, 0, 0) solid 10px;
+}
+
+.valor-para{
+    padding: 10px;
+    border: white solid 4px;
+
+}
+.btn{
+    margin: 30px 0 40px;
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    border-radius: 10px;
+    background-color: white;
+    transition: linear .2s background;
+}
+
+.btn:hover{
+    background-color: rgb(124, 124, 124);
+}
+
+#valor{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 100px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: rgb(255, 255, 255) solid 4px;
+    color: white;
+    transition: linear .2s background;
+    border-radius: 10px;
+}
+
+#valor::placeholder{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+#valor:focus{
+    background-color: rgb(41, 41, 41);
+
+}
+
+.de{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h4{
+    margin: 20px 0 5px;
+}
+
+.valor-para{
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <h1 class="title">Conversão de bases numéricas</h1>
+        <!-- <h3>Escolha uma opção</h3> -->
+        <div class="de">
+            <h4>De:</h4>
+            <form class="form-de">
+                <input type="radio" id="n2" name="nums1" value="n2"><label for="n2">2</label>
+                <input type="radio" id="n8" name="nums1"  value="n8"><label for="n8">8</label>
+                <input type="radio" id="n10" name="nums1"  value="n10"><label for="n10">10</label>
+                <input type="radio" id="n16" name="nums1"  value="n16"><label for="n16">16</label>
+            </form>
+        </div>
+        <div class="valores">
+            <div class="valor-de">
+                <form class="form-valor">
+                    <input type="text" id="valor" placeholder="Digite um valor:">
+                </form>
+                
+            </div>
+            <div>
+                <h4>Para:</h4>
+                <form class="form-para">
+                    <input type="radio" id="n2" name="nums2" value="n2" class="n2"><label for="n2">2</label>
+                    <input type="radio" id="n8" name="nums2"  value="n8"><label for="n8">8</label>
+                    <input type="radio" id="n10" name="nums2"  value="n10"><label for="n10">10</label>
+                    <input type="radio" id="n16" name="nums2"  value="n16"><label for="n16">16</label>
+                </form>
+            </div>
+            <button class="btn">Converter</button>
+            <div class="valor-para">Resultado</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
