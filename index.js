@@ -24,12 +24,10 @@
         anulaError()
         const botaoFormDe = document.getElementsByName('nums1')
         const botaoFormPara = document.getElementsByName('nums2')
-        let bool = true
-        bool = verificaMarcado(botaoFormDe)
-        bool = verificaMarcado(botaoFormPara)
-        console.log(bool)
+        let bool1 = verificaMarcado(botaoFormDe)
+        let bool2 = verificaMarcado(botaoFormPara)
 
-        if(bool){
+        if(bool1 && bool2){
             const valorBotaoDe = verificaBotao(botaoFormDe)
             const valorBotaoPara = verificaBotao(botaoFormPara)
 
@@ -442,7 +440,7 @@
             }
         }
         if(aux==4){
-            imprimirResultado('Opção invalida');
+            imprimirResultado('Marque uma opção');
             error()
             return false
         }
