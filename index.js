@@ -329,6 +329,7 @@
             if(numeros[i] === '1010') valorEmHexa += 'a'
             if(numeros[i] === '1011') valorEmHexa += 'b'
             if(numeros[i] === '1100') valorEmHexa += 'c'
+            if(numeros[i] === '1101') valorEmHexa += 'd'
             if(numeros[i] === '1110') valorEmHexa += 'e'
             if(numeros[i] === '1111') valorEmHexa += 'f'
         }
